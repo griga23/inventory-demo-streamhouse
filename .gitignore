@@ -1,0 +1,16 @@
+config/local.env
+storefront-app/venv/
+storefront-app/__pycache__/
+**/__pycache__/
+*.pyc
+.DS_Store
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate.d/
+terraform/*.tfplan
+terraform/*.tfvars
+!terraform/*.tfvars.example
+terraform/.env.local*

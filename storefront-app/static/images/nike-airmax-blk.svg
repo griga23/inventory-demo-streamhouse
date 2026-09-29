@@ -1,0 +1,19 @@
+<svg viewBox="0 0 220 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nike Air Max, black, size 42">
+  <rect x="8" y="86" width="204" height="18" rx="9" fill="#f2f2f4"/>
+  <path d="M18 90
+           L18 40
+           Q18 26 32 22
+           L60 15
+           Q95 19 128 32
+           L170 54
+           Q193 64 196 78
+           Q197 84 192 90
+           Q104 97 18 90 Z" fill="#1b1b1f"/>
+  <path d="M18 90 L18 40 Q18 27 31 23 L37 32 Q28 44 30 62 Q31 76 34 90 Z" fill="#000000" opacity="0.3"/>
+  <g stroke="#f2f2f4" stroke-width="3" stroke-linecap="round">
+    <line x1="76" y1="20" x2="70" y2="38"/>
+    <line x1="93" y1="24" x2="87" y2="42"/>
+    <line x1="110" y1="30" x2="104" y2="47"/>
+  </g>
+  <path d="M45 68 C82 78 138 72 180 50" fill="none" stroke="#ff5a36" stroke-width="6" stroke-linecap="round"/>
+</svg>

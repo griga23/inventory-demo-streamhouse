@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ItemPurchased",
+  "type": "object",
+  "properties": {
+    "sku": { "type": "string" },
+    "quantity": { "type": "integer" },
+    "order_id": { "type": "string" }
+  },
+  "required": ["sku", "quantity", "order_id"]
+}

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 220 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hoka Clifton, white, size 42">
+  <rect x="8" y="68" width="204" height="36" rx="16" fill="#eef0f4"/>
+  <rect x="8" y="94" width="204" height="10" rx="5" fill="#c7cad2"/>
+  <rect x="20" y="82" width="180" height="4" fill="#d8dae0"/>
+  <path d="M18 69
+           L18 33
+           Q18 21 32 20
+           L60 15
+           Q95 18 128 27
+           L170 43
+           Q193 50 196 60
+           Q197 65 192 69
+           Q104 69 18 69 Z" fill="#ffffff" stroke="#d4d4d9" stroke-width="2"/>
+  <path d="M18 69 L18 33 Q18 22 31 21 L36 28 Q28 38 30 52 Q31 62 33 69 Z" fill="#000000" opacity="0.06"/>
+  <g stroke="#c7c7cd" stroke-width="2.5" stroke-linecap="round">
+    <line x1="72" y1="19" x2="66" y2="31"/>
+    <line x1="87" y1="21" x2="81" y2="34"/>
+    <line x1="102" y1="25" x2="96" y2="38"/>
+  </g>
+  <path d="M40 48 C72 56 122 52 165 38" fill="none" stroke="#14b8a6" stroke-width="5" stroke-linecap="round"/>
+</svg>

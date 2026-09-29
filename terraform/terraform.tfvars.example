@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars (untracked) and fill in your existing Confluent Cloud
+# environment/cluster/Flink compute pool. This module does not create these - only
+# the demo-specific resources inside them (see README.md at the repo root).
+
+environment_id         = "env-xxxxxx"
+kafka_cluster_id       = "lkc-xxxxxx"
+flink_compute_pool_id  = "lfcp-xxxxxx"
+cloud_provider         = "AWS"
+cloud_region           = "us-west-2"

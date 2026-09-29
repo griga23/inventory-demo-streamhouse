@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shoe Store - One consistent state for all</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Shoe Store</h1>
+    <p class="subtitle">Stock reads straight from Confluent Cloud in milliseconds via the Lightning Query API.</p>
+  </header>
+
+  <main class="grid">
+    {% for f in families %}
+    <article class="card" data-sku="{{ f.sizes[0].sku }}">
+      <img class="card-image" src="{{ url_for('static', filename='images/' + f.image) }}" alt="{{ f.brand }} {{ f.model }}, {{ f.color }}">
+      <h2>{{ f.brand }} {{ f.model }}</h2>
+      <p class="variant">{{ f.color }}</p>
+      {% if f.sizes|length > 1 %}
+      <div class="size-selector">
+        {% for s in f.sizes %}
+        <button type="button" class="size-btn{% if loop.first %} active{% endif %}" data-sku="{{ s.sku }}">{{ s.size }}</button>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="variant">Size {{ f.sizes[0].size }}</p>
+      {% endif %}
+      <p class="sku">{{ f.sizes[0].sku }}</p>
+      <p class="stock">
+        <span class="quantity">--</span> in stock
+      </p>
+      <button class="buy-btn" type="button">Buy</button>
+    </article>
+    {% endfor %}
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
